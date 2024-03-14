@@ -129,6 +129,14 @@ class Api_model extends CI_Model{
         return $this->db->get($tablename)->row();
         
     }
+     public function get_where_array($tbl_name, $data)
+    {
+        $this->db->select('*');
+        $this->db->from($tbl_name);
+        $this->db->where($data);
+        $query = $this->db->get();
+        return $query->result_array();
+    }
     
     public function insert($table_name = '', $data=array()) {
         

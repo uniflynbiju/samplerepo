@@ -1,0 +1,1191 @@
+{
+	"info": {
+		"_postman_id": "199e5dfb-83d2-4c36-8d54-21aeb4c52fa4",
+		"name": "Askpa",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21196180"
+	},
+	"item": [
+		{
+			"name": "doUpload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file_type",
+							"value": "profile_image",
+							"type": "text"
+						},
+						{
+							"key": "file_name",
+							"type": "file",
+							"src": "sCHLw3xkx/00003.jpeg"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/doUpload",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"doUpload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_otp_user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "phone_no",
+							"value": "163553635",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/get_otp_user",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"get_otp_user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_otp_provider",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "phone_no",
+							"value": "163553635",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/get_otp_provider",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"get_otp_provider"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_profile_user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "P",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "pk@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"value": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "coimbatore",
+							"type": "text"
+						},
+						{
+							"key": "latitude",
+							"value": "11.0",
+							"type": "text"
+						},
+						{
+							"key": "longitude",
+							"value": "76.0",
+							"type": "text"
+						},
+						{
+							"key": "token",
+							"value": "45354354543",
+							"type": "text"
+						},
+						{
+							"key": "device",
+							"value": "ios",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/update_profile_user",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"update_profile_user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_device_user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "token",
+							"value": "45354354543",
+							"type": "text"
+						},
+						{
+							"key": "device",
+							"value": "ios",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/update_device_user",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"update_device_user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_device_prof",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "P",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "pk@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"value": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "coimbatore",
+							"type": "text"
+						},
+						{
+							"key": "latitude",
+							"value": "11.0",
+							"type": "text"
+						},
+						{
+							"key": "longitude",
+							"value": "76.0",
+							"type": "text"
+						},
+						{
+							"key": "token",
+							"value": "45354354543",
+							"type": "text"
+						},
+						{
+							"key": "device",
+							"value": "ios",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/update_device_prof",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"update_device_prof"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_profile_provider",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "P",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "pk@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"value": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "coimbatore",
+							"type": "text"
+						},
+						{
+							"key": "latitude",
+							"value": "11.0",
+							"type": "text"
+						},
+						{
+							"key": "longitude",
+							"value": "76.0",
+							"type": "text"
+						},
+						{
+							"key": "token",
+							"value": "45354354543",
+							"type": "text"
+						},
+						{
+							"key": "device",
+							"value": "ios",
+							"type": "text"
+						},
+						{
+							"key": "service_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "service_name",
+							"value": "Plumber",
+							"type": "text"
+						},
+						{
+							"key": "aadhaar",
+							"value": "7887787878",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/update_profile_provider",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"update_profile_provider"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_package_user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "product_pckage",
+							"value": "1",
+							"description": "1-Subscriped,0- Not",
+							"type": "text"
+						},
+						{
+							"key": "service_package",
+							"value": "0",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/update_package_user",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"update_package_user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_package_provider",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "product_pckage",
+							"value": "1",
+							"description": "1-Subscriped,0- Not",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/update_package_provider",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"update_package_provider"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "package_list",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_type",
+							"value": "1",
+							"description": "1-User,2-Provider",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/package_list",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"package_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_profile_details",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_type",
+							"value": "provider",
+							"description": "client/provider",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/get_profile_details",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"get_profile_details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ads_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/ads_list",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"ads_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "services_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/services_list",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"services_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "professional_list",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "latitude",
+							"value": "13.067439",
+							"type": "text"
+						},
+						{
+							"key": "longitude",
+							"value": "80.237617",
+							"type": "text"
+						},
+						{
+							"key": "distnace_in_miles",
+							"value": "100",
+							"type": "text"
+						},
+						{
+							"key": "service_id",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/professional_list",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"professional_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_rating_prof",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "prof_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "rating",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/add_rating_prof",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"add_rating_prof"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_booking",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "provider_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "coimbatore",
+							"type": "text"
+						},
+						{
+							"key": "latitude",
+							"value": "11.0",
+							"type": "text"
+						},
+						{
+							"key": "longitude",
+							"value": "76.0",
+							"type": "text"
+						},
+						{
+							"key": "date_time",
+							"value": "2022-12-04 14:03:09",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "cost",
+							"value": "200",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/add_booking",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"add_booking"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_booking",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "status",
+							"value": "5",
+							"description": "1- Booked, 2- Accept,3-Reject, 4- Cancel, 5- Complated, 6- Reviewed\t",
+							"type": "text"
+						},
+						{
+							"key": "booking_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "signature_image",
+							"value": "ddddf",
+							"description": "only for 5th Status",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "provider_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "cost",
+							"value": "200",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/update_booking",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"update_booking"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "booking_list",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "user_type",
+							"value": "2",
+							"description": "1-User,2-Provider",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "5",
+							"description": "1- All, 5- Completed",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/booking_list",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"booking_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "transaction_list",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "provider_id",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/transaction_list",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"transaction_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_booking_details",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "booking_id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/get_booking_details",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"get_booking_details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "withdraw_request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "provider_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "cost",
+							"value": "200",
+							"type": "text"
+						},
+						{
+							"key": "upi_id",
+							"value": "hello@ybl",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/withdraw_request",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"withdraw_request"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "subscriped_list",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/subscriped_list",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"subscriped_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "allproducts_list",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "search",
+							"value": "rice",
+							"description": "empty for all products",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/allproducts_list",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"allproducts_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_update_cart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "1",
+							"description": "empty for all products",
+							"type": "text"
+						},
+						{
+							"key": "product_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "qty",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/add_update_cart",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"add_update_cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cart_list",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/cart_list",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"cart_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete_cart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "cart_id",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/delete_cart",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"delete_cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_order",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "coimbatore",
+							"type": "text"
+						},
+						{
+							"key": "latitude",
+							"value": "11.0",
+							"type": "text"
+						},
+						{
+							"key": "longitude",
+							"value": "76.0",
+							"type": "text"
+						},
+						{
+							"key": "date_time",
+							"value": "2022-12-04 14:03:09",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "cost",
+							"value": "200",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/add_order",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"add_order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "order_list",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://unidemo.xyz/Askpa/Api/order_list",
+					"protocol": "https",
+					"host": [
+						"unidemo",
+						"xyz"
+					],
+					"path": [
+						"Askpa",
+						"Api",
+						"order_list"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
